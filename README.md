@@ -1,7 +1,7 @@
 ## Run Project
 
-´´´go
+```sh
 
 go run -buildvcs=false  .
 
-´´´
+```
