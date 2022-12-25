@@ -22,6 +22,8 @@ func LinuxOS(){
 			browser.FIREFOX();
 		case "github":
 			fmt.Println("[CTRL CLICK] =>","[",urls.Github(),"]");
+    case "whatsapp":
+      fmt.Println("[CTRL CLICK] =>","[",urls.Whatsapp(),"]");
 		default:
 			fmt.Println("UNDEFINIED COMMAND");
 	}
