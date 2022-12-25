@@ -21,7 +21,7 @@ func LinuxOS(){
 		case "firefox":
 			browser.FIREFOX();
 		case "github":
-			fmt.Println(urls.Github());
+			fmt.Println("[CTRL CLICK] =>","[",urls.Github(),"]");
 		default:
 			fmt.Println("UNDEFINIED COMMAND");
 	}
