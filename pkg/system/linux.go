@@ -24,6 +24,8 @@ func LinuxOS(){
 			fmt.Println("[CTRL CLICK] =>","[",urls.Github(),"]");
     case "whatsapp":
       fmt.Println("[CTRL CLICK] =>","[",urls.Whatsapp(),"]");
+    case "google":
+      fmt.Println("[CTRL CLICK] =>","[",urls.Google(),"]");
 		default:
 			fmt.Println("UNDEFINIED COMMAND");
 	}
