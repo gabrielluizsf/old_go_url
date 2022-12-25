@@ -2,6 +2,6 @@
 
 ```sh
 
-go run -buildvcs=false  .
+go run *.go
 
 ```
