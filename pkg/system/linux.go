@@ -16,6 +16,8 @@ func LinuxOS(){
 			commands.Execute("ls");
 		case "i":
 			commands.Execute("whoami");
+    case "hello":
+      fmt.Println("Hello ", myOSUsername("[ERROR]: Cannot get OS username\n[RESPONSE]: "))
 		case "firefox":
 			browser.FIREFOX();
 		case "github":
