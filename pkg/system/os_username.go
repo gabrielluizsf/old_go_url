@@ -6,7 +6,6 @@ import (
 )
 
 func myOSUsername(errmessage string)string{
-
   whoami , err := user.Current();
     warning.PRINT_DEFAULT_ERRORS(err,errmessage);
   username := whoami.Username;
