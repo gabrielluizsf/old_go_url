@@ -1,7 +1,7 @@
 package analyzer
 
 import "fmt";
-
+//this function is a systems architecture analyst
 func ARCH_ANALYZER(){
 	switch MyARCH(){
 	case "amd64":
