@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"github.com/GabrielLuizSF/go_url/pkg/system"
 )
-
+//this function is the operating system analyst 
+//directing to the specific implementation for the operating system
 func OSAnalyzer(){
 	switch MyOS(){
 		case "linux":
