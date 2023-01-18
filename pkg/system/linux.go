@@ -7,9 +7,8 @@ import (
 	"github.com/GabrielLuizSF/go_url/pkg/system/commands"
 	"github.com/GabrielLuizSF/go_url/pkg/urls"
 )
-
+//this function should only be run on linux :)
 func LinuxOS(){
-
 	command := MyCommand();
 	switch command{
 		case "ls":
